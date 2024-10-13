@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #d0df43;
+    background-color: greenyellow;
 }
 
 header {
@@ -49,34 +49,25 @@ section {
 }
 
 footer {
+    
     text-align: center;
     padding: 10px 0;
     background-image: url(WhatsApp\ Image\ 2024-10-07\ at\ 17.47.30_3693f989.jpg);
     color: black;
 }
+.video-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 
-form {
-    display: flex;
-    flex-direction: column;
 }
 
-form label {
-    margin: 10px 0 5px;
-}
-
-form input, form textarea {
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-button {
-    padding: 10px;
-    background: #eb8722;
-    color: rgb(10, 5, 5);
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #555;
-}
